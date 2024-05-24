@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Нана"
+            android:gravity="center"
+            android:textSize="16pt"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Автор: Ядзава Ай"
+            android:gravity="center"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/nana"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="В поезде, едущем в Токио, знакомятся две девушки. Одна — с резким и сильным характером, стремится к карьере рок-певицы, другая — милая и наивная, ни о чём серьёзном не мечтает. Кажется, они абсолютные противоположности, однако у девушек много общего: имя «Нана» и способность любить. И ещё они жизни себе не представляют без музыки. Главным героиням предстоит решить, что самое главное, а от чего придётся отказаться, долгое время они будут делить горести и радости, разбираться в своих чувствах и взрослеть." />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Но не все сюжетные линии этого сериала связаны с душевными исканиями и необходимостью делать выбор. Не менее интересны истории двух групп — начинающей Black Stone, где поёт Нана, и популярной Trapnest, где играет её возлюбленный, Рэн. Проблемы творческого поиска, узы дружбы и взаимопонимание профессионалов, репетиции, концерты, студийные записи — и даже противоречивый мир фанаток не будет обойдён вниманием." />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Герои будут переживать кризис самооценки, совершенствовать мастерство, талант и терпение, проходить через сделки со своей совестью и осознавать, что добиться исполнения заветной мечты ещё не значит обрести счастье. Увы, но драгоценные минуты гармонии и блаженства всегда остаются в прошлом, их не вернуть — можно лишь вспоминать..." />
+    </LinearLayout>
+</FrameLayout>
